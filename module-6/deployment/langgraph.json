@@ -1,10 +1,15 @@
 {
-    "dockerfile_lines": [],
-    "graphs": {
-      "task_maistro": "./task_maistro.py:graph"
-    },
-    "python_version": "3.11",
-    "dependencies": [
-      "."
-    ]
-  }
+  "dockerfile_lines": [],
+  "graphs": {
+    "task_maistro": "./task_maistro.py:graph"
+  },
+  "env": [
+    "OPENAI_API_KEY",
+    "LANGSMITH_API_KEY",
+    "LANGCHAIN_TRACING_V2"
+  ],
+  "python_version": "3.11",
+  "dependencies": [
+    "."
+  ]
+}
